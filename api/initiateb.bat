@@ -8,6 +8,6 @@ echo Activating Environment
 call project\Scripts\activate.bat
 echo installing packages
 pip install -r requirements.txt
-cls && echo starting server
+echo starting server
 uvicorn app:app --port 8000 --reload
 pause
