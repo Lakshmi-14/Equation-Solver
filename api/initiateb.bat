@@ -1,5 +1,5 @@
 @echo off
-
+title Bckend Server
 if not exist "project" (
             echo Creating Environment
             python -m venv project
